@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-			WeatherData subject = new WhetherData();
+			WeatherData subject = new WheatherData();
 			
 					
 		}

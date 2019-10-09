@@ -33,8 +33,16 @@ public class WeatherData {
 			return x;
 		};
 
-		public double measurementsChanged() {
-			double x = Math.random();
-			return x;
+		public List<double>  measurementsChanged() {
+			List<double> measurements = new ArrayList<>();
+			
+			int x = Math.random();
+
+			for (int i = 0; i < x; i++) {
+				
+				measurements.add(getPressure());
+			}
+			
+			return measurements;
 		};
 };

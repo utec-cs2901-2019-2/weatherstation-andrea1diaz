@@ -3,13 +3,14 @@ package cs2901.utec.edu.pe;
 import java.util.*;
 
 public class CurrentCoditions implements Observer {
-		WeatherData subjects = Observer;
+		WeatherData subject = new WeatherData();
+
     @Override
     public void update() {
-			WeatherData.getTemperature();
-    }
+			display();
+		};
 
     public void display(){
-			System.out.println(WeatherData.getTemperature());
+			System.out.println(subject.getTemperature());
     }
 }
