@@ -8,6 +8,5 @@ public class StatisticsDisplay implements Observer {
     }
 
     public void display(){
-
     }
 }
